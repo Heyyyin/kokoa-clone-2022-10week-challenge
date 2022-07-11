@@ -1,2 +1,2 @@
 #Kokoa clone 2022 10week challenge just started
-CSS got so much better
+HTML & CSS got so much better
