@@ -1,0 +1,21 @@
+.page-title-bar{
+    margin: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.page-title-bar__column{
+    font-size: 80px;
+    
+}
+
+.page-title-bar__column:first-child{
+    font-weight: 900;
+}
+
+.page-title-bar__column:last-child>i{
+    margin-left:20px;
+}
+
+

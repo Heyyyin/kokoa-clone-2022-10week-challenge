@@ -1,0 +1,88 @@
+@import "reset.css";
+@import "variable.css";
+
+/* components */
+@import "component/background-screen.css";
+@import "component/status-bar.css";
+@import "component/page-title-bar.css";
+@import "component/user.css";
+@import "component/box-title.css";
+
+/* screens */
+@import "screen/friends.css";
+
+.welcome{
+    margin: 440px 0;
+    border:1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.welcome__title{    
+    font-size: 75px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.welcome__subtitle{
+    font-size: 40px;
+    color: rgba(0,0,0,0.4);
+    text-align: center;
+    border: 1px solid black;
+}
+
+.login-form{
+
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.login-form>input, .login-form>button{
+    height: 75px;
+    border: 1px solid black;
+    margin: 20px 0;
+    padding: 20px 0;
+    color: rgba(20, 66, 217, 0.8);
+   
+}
+
+.login-form>input{
+    border:none;
+    border-bottom: 1px solid rgba(0,0,0,0.4);
+    font-size: 45px;
+    color: white;
+    }
+
+
+
+.login-form>input:focus{
+   
+    background-color:rgba(20, 66, 217, 0.8);
+    box-shadow: 0 14px 28px rgba(255,232,18,0.5), 0 10px 10px rgba(255,232,18,0.5);
+    color: yellow;
+ }
+
+ .login-form>input{
+    border-radius: 30px;  
+    background-color:rgb(255,232,18);
+    box-shadow: 0 14px 28px rgba(20, 66, 217, 0.8), 0 10px 10px rgba(20, 66, 217, 0.8);
+    color: yellow;
+ }
+
+
+
+.login-form>button{
+ 
+}
+
+.login-form>button:hover{
+    border-radius:30px;  
+    background-color:rgba(20, 66, 217, 0.8);
+    box-shadow: 0 14px 28px rgba(255,232,18,0.5), 0 10px 10px rgba(255,232,18,0.5);
+    cursor: pointer;
+}
