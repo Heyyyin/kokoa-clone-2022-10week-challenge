@@ -1,0 +1,28 @@
+.icon-array{
+    margin:120px 0;
+    border: 1px solid black;
+}
+
+.icon-array__column{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.icon-array__column>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width:25%;
+    border: 1px solid black;
+}
+
+.icon-array__column>div>i{
+    font-size: 100px;
+}   
+.icon-array__column>div>span{
+    font-size: 30px;
+    display: flex;
+}

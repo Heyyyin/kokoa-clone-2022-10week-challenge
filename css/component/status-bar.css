@@ -30,3 +30,13 @@
     font-size: 48px;
     margin-right: 10px;
 }
+.fa-wifi{
+    color:#0489c7;
+}
+
+.fa-battery-full{
+    color: #1fd771;
+}
+.fa-bolt{
+    color:yellow;
+}

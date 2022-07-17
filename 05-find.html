@@ -14,60 +14,112 @@
       <div class="status-bar">
         <div class="status-bar__column">
           <span>Service</span>
-          <!--icon wifi -->
+          <i class="fa-solid fa-wifi"></i>
         </div>
         <div class="status-bar__column">03:22</div>
         <div class="status-bar__column">
-          <!-- icon lock -->
+          <i class="fa-solid fa-lock"></i>
           <span>100%</span>
-          <!-- icon battery full -->
+          <i class="fa-solid fa-battery-full"></i>
+          <i class="fa-solid fa-bolt"></i>
         </div>
       </div>
      
-      <div class="main-screen"></div>
+      <div class="main-screen">
       <div class="page-title-bar">
-        <div class="page-title-bar__column">Friends</div>
+        <div class="page-title-bar__column">Find</div>
         <div class="page-title-bar__column">
-          <!-- icon search -->
-          <!-- icon setting -->
+          <i class="fa-solid fa-magnifying-glass fa-xs"></i>
+          <i class="fa-solid fa-gear fa-xs"><span class="red-dot">!!</span></i>
         </div>
       </div>
 
       <div class="find-friends icon-array">
         <div class="icon-array__column">
-          <!-- icon QR code -->
-          <!-- icon phonebook. Add by contacts -->
-          <!-- icon id Add by ID -->
-          <!-- icon invitation Invite -->
+          <div>
+            <i class="fa-solid fa-qrcode"></i>
+            <span>QR Code</span>
+          </div>
+          <div>
+            <i class="fa-regular fa-address-book"></i>
+            <span>Add by Contacts</span>
+          </div>     
+          <div>  
+            <i class="fa-solid fa-fingerprint"></i>
+            <span>Add by ID</span>
+          </div>
+          <div>
+            <i class="fa-regular fa-envelope"></i>
+            <span>Invite</span>
+          </div>
         </div>
       </div>
 
       <div class="recommended-friends">
         <div class="recommended-friends box-title">Recommended Friends</div>
-        <!-- user component modification -->
+        
+        <div class="user">
+          <img class="user__img--small" src="$" />
+          <div class="user__name">
+            <span class="user__name--small">Heyyyin</span>
+            <span class="user-message"></span>
+          </div>
+          <div class="user__etc">
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+
+        <div class="user">
+          <img class="user__img--small" src="$" />
+          <div class="user__name">
+            <span class="user__name--small">Heyyyin</span>
+            <span class="user-message"></span>
+          </div>
+          <div class="user__etc">
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+
+        <div class="user">
+          <img class="user__img--small" src="$" />
+          <div class="user__name">
+            <span class="user__name--small">Heyyyin</span>
+            <span class="user-message"></span>
+          </div>
+          <div class="user__etc">
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+
       </div>
 
       <div class="open-chat">
-        <div class="open-chat__title box-title">Open chat</div>
-        <div class="open-chat__title">
-          Go to Openchat Home
-          <!-- icon chevron to the right -->
+        <div class="open-chat__title box-title">
+          <span>Open chat</span>
+          <span>Go to Openchat Home
+            <i class="fa-solid fa-chevron-right"></i></span>
         </div>
+        
         <ul class="open-chat__list">
           <!-- use overflow in css -->
           <li class="open-chat__list__item">
+          
             <div class="open-chat__list__item__column">
-              <div class="open-chat__list__item__title"></div>
-              <div class="open-chat__list__item__subtitle"></div>
+              <div class="open-chat__list__item__title">#KokoaChallenge</div>
+              <div class="open-chat__list__item__subtitle">#Kokoa#Challenge</div>
               <div class="open-chat__list__item__members">
-                <img src="$" />
-                <span>8888 members</span>
-                <span>Active</span>
+                  <img src="$" />
+                  <span>13439 members</span>
+                  <span>Active</span>
               </div>
             </div>
+                        
             <div class="open-chat__list__item__column">
-              <img src="$" />
-              <!-- icon heart counting -->
+               <img src="$" />
+               <span><i class="fa-solid fa-heart"></i> 456</span>
             </div>
           </li>
         </ul>
@@ -86,5 +138,6 @@
       ></script>
     </div>
   </div>
+</div>
   </body>
 </html>
